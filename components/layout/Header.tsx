@@ -45,7 +45,7 @@ export default function Header() {
                                 className="object-contain"
                             />
                         </div>
-                        <span className="font-heading text-xl font-bold">FitGym</span>
+                        <span className="font-heading text-xl font-bold text-white dark:text-primary">FitGym</span>
                     </a>
 
                     <ul className="hidden items-center gap-8 md:flex">
