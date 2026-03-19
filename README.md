@@ -2,7 +2,7 @@
 
 Modern, responsive gym website built with Next.js, TypeScript, and Tailwind CSS.
 
-<img src="./public/images/banner.png" width="600" alt="FitGym Homepage">
+![Banner](/public/images/Banner.png)
 
 ## 📋 Overview
 
