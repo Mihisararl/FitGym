@@ -2,7 +2,7 @@
 
 Modern, responsive gym website built with Next.js, TypeScript, and Tailwind CSS.
 
-![FitGym Banner](https://via.placeholder.com/1200x400/1E1E1E/00E5FF?text=FitGym+Website)
+<img src="./public/images/banner.png" width="600" alt="FitGym Homepage">
 
 ## 📋 Overview
 
@@ -175,3 +175,10 @@ json
 Name	Required, minimum 2 characters
 Email	Required, valid email format
 Message	Required, minimum 10 characters
+
+
+🌐 **Deployment**
+
+ Vercel 
+
+[https://vercel.com/button](https://fit-gym-lac.vercel.app/)
