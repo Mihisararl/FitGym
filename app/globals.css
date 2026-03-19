@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Golden Yellow / Mustard Gold */
+    --color-primary: #D4A017;
+    /* Dark Brown / Espresso Brown */
+    --color-secondary: #3B2A1A;
+    /* Light Gray / Off-White background */
+    --color-bg: #D9D6D2;
+    /* Surface (cards, panels) */
+    --color-surface: #FFFFFF;
+    /* Text color (dark brown) */
+    --color-text: #3B2A1A;
+    /* Muted text */
+    --color-muted: #7F6B55;
+    /* Border */
+    --color-border: #E6E1DD;
+    --font-heading: "Poppins";
+    --font-body: "Inter";
+}
+
+.dark {
+    /* Keep accent gold in dark mode */
+    --color-primary: #D4A017;
+    --color-secondary: #3B2A1A;
+    /* Dark backgrounds for dark mode */
+    --color-bg: #000000;
+    --color-surface: #3A3A3A;
+    /* pure black variant for surfaces */
+    --color-text: #D9D6D2;
+    /* light text on dark */
+    --color-muted: #C6B9A8;
+    --color-border: #2E2A26;
+}
+
+* {
+    border-color: var(--color-border);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body), sans-serif;
+}
+
+.section-title {
+    @apply font-heading text-3xl font-bold uppercase md:text-4xl;
+}
+
+.section-underline {
+    @apply mb-5 block h-1 w-16 rounded-full bg-brand-gradient;
+}
